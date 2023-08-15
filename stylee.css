@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Source+Sans+3:ital,wght@1,200&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-1: 'Roboto', sans-serif;
+    --font-2 :'Poppins', sans-serif;
+    --bg-color: #f5f5f5;
+}
+
+.main{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* section 1 */
+
+.section1{
+    height: 700px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar{
+    position: absolute;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.banner img{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.bannerContent{
+    position: absolute;
+    width: 80%;
+    height: 540px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.content1{
+    height: 300px;
+    width: 40%;
+}
+
+.listUl3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listUl3 li{
+    list-style: none;
+    font-family: var(--font-1);
+    padding: 5px;
+
+}
+
+
+.listUl3 li h1{
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 1000;
+    border-bottom: 2px solid black;
+}
+
+.listUl3 li a{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.listUl3 li:nth-child(4){
+    margin-top: 15px;
+}
+
+
+
+.logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-1);
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.list{
+    height: 100%;
+    width: 70%;
+}
+
+.listUL1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.listUL1 li{
+    list-style: none;
+    padding: 12px;
+}
+
+.listUL1 li a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-1);
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.icon{
+    height: 100%;
+    width: 20%;
+}
+
+.listUl2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listUl2 li{
+    list-style: none;
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+/* SECTION 2 */
+.section2{
+    height: 100%;
+    width: 100vw;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+.img1{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://avone-demo.myshopify.com/cdn/shop/files/TEMP_55ca6b64-1a53-4be0-88f5-9605b634766d_900x.jpg?v=1614779902");
+    background-position: center;
+    background-size: cover;
+}
+
+.msg1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desc{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 150px 50px; 
+    font-family: var(--font-1);
+}
+
+.desc h1{
+    font-size: 35px;
+}
+
+.desc p{
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+.desc a{
+    padding: 8px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: var(--bg-color);
+    width: fit-content;
+    font-weight: 800;
+    font-size: 15px;
+    border: 1.5px solid black;
+    transition: 0.5s;
+}
+.desc a:hover{
+    background-color: var(--bg-color);
+    color: black;
+    transition: 0.5s;
+}
+
+
+.sec2{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img2{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://avone-demo.myshopify.com/cdn/shop/files/hhh_bbf67010-c9db-48a6-b348-cd20a179dae5_900x.jpg?v=1614779902");
+    background-position: center;
+    background-size: cover;
+}
+
+.msg2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+.left{
+    height: auto;
+    width: 50%;
+}
+
+.left img{
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    height: auto;
+    width: 50%;
+}
+
+.rightGrid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.gridImg{
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.gridImg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.gridWrap{
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.795);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: .8s;
+}
+
+.gridWrap p{
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: var(--font-2);
+    font-weight: 300;
+}
+
+.gridIcon{
+    transform: translateY(10px);
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gridWrap:hover{
+    opacity: 1;
+    transition: .8s;
+}
+
+.grid2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.grid3{
+    background-color: darksalmon;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.grid4{
+    background-color: tomato;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+/* section 3 */
+
+.section3{
+    width: 100%;
+    height: 600px;
+}
+
+.vid{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    object-position: center;
+
+}
+.vid video {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale();
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */ 
+}
+
+.vidmsg{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 80%;
+}
+
+.vidmsg p{
+    font-family: var(--font-1);
+    font-size: 40px;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    /* color: white; */
+}
+
+.vidmsg a{
+    font-family: var(--font-1);
+    color: white;
+    background-color: black;
+    border: 1.5px solid black;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: .8s;
+}
+
+.vidmsg a:hover{
+    /* color: black; */
+    background-color: transparent;
+    font-weight: 800;
+    transition: .8s;
+    border: transparent;
+}
+
+
+
+/* section4 */
+
+.section4{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+    line-height: 1.3;
+    gap: 10px;
+    font-family: var(--font-1);
+    text-transform: uppercase;
+}
+
+.card p{
+    font-size: 13px;
+    text-transform: none;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.foot{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-1);
+}
+.copywrite{
+    color: white;
+}
+
+.payment{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* media Query */
+
+@media screen and (max-width: 600px){
+   
+    /* section1 */
+    .list{
+        display: none;
+    }
+    .banner img{
+        height: 600px;
+    }
+    .listUl3 li h1{
+        font-size: 20px;
+    }
+    .section1{
+        height: 600px;
+    }
+    .bannerContent{
+        margin-left: 0%;
+        width: 440px;
+
+    }
+
+    .bannerContent p{
+        font-size: 12px;
+    }
+
+    .bannerContent a{
+        font-size: 12px;
+    }
+    .listUl3{
+        width: 125%;
+    }
+
+    /* section2 */
+    .section2{
+        position: relative;
+        display: block;
+    }
+    .sec1{
+        position: relative;
+        height: 900px;
+        display: block;
+    
+    }
+    .img1{
+        height: 50%;
+        width: 100%;
+    }
+
+    .msg1{
+        display: block;
+        width: 100%;
+    }
+    .desc{
+        height: 50%;
+        width: 100%;
+
+    }
+    .sec2{
+        height: 900px;
+        display: block;
+    }
+    .img2{
+        height: 50%;
+        width: 100%;
+    }
+    .msg2{
+        width: 100%;
+        height: 50%;
+    }
+    .sec3{
+        display: block;
+        height: 500px;
+    }
+
+    /* section 3 */
+    .section3{
+        height: 260px;
+    }
+
+    .left{
+        display: none;
+        width: 100%;
+        height: 242px;
+    }
+    .right{
+        width: 100%;
+        height: 500px;
+    }
+    .vid video{
+        height: 260px;
+    }
+    .vidmsg{
+        top: 17%;
+        gap: 5px;
+    }
+    .vidmsg p{
+        font-size: 25px;
+    }
+    .vidmsg a{
+        padding: 6px;
+    }
+
+    /* section 4 */
+    .section4{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 50%;
+        height: 50%;
+    }
+
+    /* footer */
+    .footer{
+
+    }
+    .foot{
+        width: 100%;
+    }
+    .copywrite{
+        font-size: 12px;
+        width: 50%;
+        padding-left: 5px;
+    }
+    .payment{
+        width: 50%;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+
+}
