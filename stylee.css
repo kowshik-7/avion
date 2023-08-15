@@ -30,7 +30,6 @@ body{
 .section1{
     height: 700px;
     width: 100%;
-    background-color: green;
     display: flex;
     justify-content: center;
 }
@@ -587,7 +586,7 @@ body{
 
     /* section 3 */
     .section3{
-        height: 260px;
+        height: 300px;
     }
 
     .left{
@@ -600,17 +599,21 @@ body{
         height: 500px;
     }
     .vid video{
-        height: 260px;
+        height: 300px;
     }
     .vidmsg{
         top: 17%;
         gap: 5px;
     }
     .vidmsg p{
-        font-size: 25px;
+        font-size: 18px;
     }
     .vidmsg a{
         padding: 6px;
+    }
+
+    .gridWrap:hover{
+        opacity: 0;
     }
 
     /* section 4 */
@@ -621,6 +624,9 @@ body{
     .card{
         width: 50%;
         height: 50%;
+    }
+    .card img{
+        height: 65px;
     }
 
     /* footer */
